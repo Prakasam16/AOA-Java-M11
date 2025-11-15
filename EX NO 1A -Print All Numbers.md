@@ -1,19 +1,23 @@
-EX 1A Print All Numbers
-DATE: 07/8/2025
-AIM:
+
+# EX 1A Print All Numbers 
+## DATE: 07/8/2025
+## AIM:
 To Write a Java program that takes an integer input N from the user and prints all the numbers from 1 to N, separated by spaces, on a single line..
 
-Algorithm
-Start the program and import the Scanner class to take user input.
-Create a Scanner object to read an integer input N from the user.
-Check if N is greater than 0; if not, display "Invalid input. N must be greater than 0."
-Use a for loop to iterate from 1 to N.
-Print each number separated by a space on the same line.
-Program:
+## Algorithm
+1. Start the program and import the `Scanner` class to take user input.
+2. Create a `Scanner` object to read an integer input `N` from the user.
+3. Check if `N` is greater than 0; if not, display `"Invalid input. N must be greater than 0."`
+4. Use a `for` loop to iterate from 1 to `N`.
+5. Print each number separated by a space on the same line.
+
+
+## Program:
+```
 /*
 Program to implement Reverse a String
 Developed by: Prakasam P
-Register Number: 212222040118
+Register Number: 212222040118 
 */
 
 import java.util.*;
@@ -26,8 +30,12 @@ public class PrintNum{
         }
     }
 }
-Output:
-<img width="609" height="195" alt="image" src="https://github.com/user-attachments/assets/2a580e07-4c2b-4519-9f42-62afeaf380bf" />
+```
 
-Result:
-The program successfully print all the numbers from 1 to N.
+## Output:
+<img width="491" height="159" alt="image" src="https://github.com/user-attachments/assets/ef5e3fdf-c4da-46c2-b207-43343d9ccad8" />
+
+
+
+## Result:
+The program successfully print all the numbers from 1 to N. 
